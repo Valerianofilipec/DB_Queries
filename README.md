@@ -157,7 +157,7 @@ Para esse desafio, temos os seguintes testes:
 
     [Instalação Docker](https://docs.docker.com/desktop/)**
 
-## Instalação e Execução do Projeto
+## Instalação e Execução do Desafio
 
 - Clone este repositório
 
