@@ -154,3 +154,50 @@ Para esse desafio, temos os seguintes testes:
 - **[GamesRepository] should be able to list users who have given game id**
     
     Para que esse teste passe, você deve satisfazer o código de acordo com o que é [descrito aqui](https://www.notion.so/Desafio-01-Database-Queries-8d97dae581d5446e97555c43d301ee45).
+
+    [Instalação Docker](https://docs.docker.com/desktop/)**
+
+## Instalação e Execução do Projeto
+
+- Clone este repositório
+
+```
+> git clone https://github.com/Valerianofilipec/DB_Queries.git
+```
+
+- Navegue até o diretório principal do projeto
+
+```
+> cd DB_Queries
+```
+
+- Instale as dependências com o Yarn ou NPM
+
+```
+yarn
+```
+```
+npm install
+```
+
+- Inicie um container docker com postgres utilizando o docker-compose
+
+```
+docker-compose up -d
+```
+
+- Rode a suite de testes
+
+```
+yarn test
+```
+```
+npm test
+```
+
+
+- Pare e remova o container docker
+
+```
+docker-compose down
+```
